@@ -7,8 +7,8 @@ const ViewInfo = () => {
     
   return (
     <div className='flex justify-center'>
-            <div className='mt-5 grid justify-center border-2 w-2/4  p-5'>
-                    <h1 className='text-3xl p-2 mb-2'>Product Details</h1>
+            <div className='mt-5 flex flex-col justify-between border-2 w-2/4  p-5'>
+                    <h1 className='text-3xl p-2 mb-2  text-center'>Product Details</h1>
                     <div className=''>
                             <h1>Title: {viewProduct.title}</h1>
                             <h1 className='text-xl'>Price: {viewProduct.price}</h1>
